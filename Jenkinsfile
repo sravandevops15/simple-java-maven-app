@@ -4,7 +4,7 @@ pipeline{
         stage("build name"){
           steps{
             script {
-                    currentBuild.displayName = "${BUILD_NUMBER}-${JOB_NAME}-${BRANCH_NAME}"
+                    currentBuild.displayName = "${BUILD_NUMBER}-${JOB_NAME}"
                     //currentBuild.description = "continue other stages if stage fails"
                 }
           }}
