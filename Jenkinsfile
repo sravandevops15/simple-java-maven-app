@@ -32,7 +32,7 @@ pipeline{
                 }
             }
             steps{
-                sh "echo stage2"
+                sh "ech stage2"
             }
         }
         stage("stage3"){
