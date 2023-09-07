@@ -12,7 +12,7 @@ pipeline{
             steps{
                 script {
                 try {
-                    sh "echo stage1"
+                    sh "ech stage1"
                 } catch (Exception e) {
                     continueotherstages = true
                 }
